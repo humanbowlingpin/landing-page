@@ -29,7 +29,7 @@ ul {
     display: flex;
     gap: 24px;
 }
-a, .hero-small-text {
+a, .hero-small-text, .action-button .subtext {
     font-size: 18px;
     font-weight: 300;
     color: #e5e7e8;
@@ -102,7 +102,7 @@ a, .hero-small-text {
     border-radius: 16px;
     height: 180px;
 }
-.subtext {
+.illus-container .subtext {
     font-size: 18px;
     font-weight: 300;
     color: #5e5e5e;
@@ -123,4 +123,41 @@ a, .hero-small-text {
     font-weight: bold;
     font-style: normal;
     float: right;
+}
+
+.call-to-action {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.action-button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 900px;
+    height: 130px;
+    padding: 0 50px;
+}
+.signup {
+    flex-shrink: 0;
+    width: 150px;
+    background-color: #3882f6;
+    border: 2px solid white;
+    height: 40px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: roboto;
+}
+
+.action-button .text {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
 }
