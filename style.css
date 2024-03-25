@@ -73,3 +73,54 @@ a, .hero-small-text {
     flex-direction: column;
     gap: 20px;
 }
+
+.random-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    height: 460px;
+    margin: 0 auto;
+    gap: 32px;
+}
+.random-info .title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+    margin-top: 48px;
+}
+.illus-containers {
+    display: flex;
+    gap: 48px;
+}
+.illus-container {
+    width: 180px;
+    text-align: center;
+}
+.illus {
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    height: 180px;
+}
+.subtext {
+    font-size: 18px;
+    font-weight: 300;
+    color: #5e5e5e;
+}
+
+.inspo-quote {
+    background-color: #e5e7e8;
+    color: #1f2937;
+    padding: 120px 300px;
+}
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+.quote-sayer {
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    float: right;
+}
